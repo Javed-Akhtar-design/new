@@ -1,0 +1,10 @@
+node_modules/
+.git/
+.github/
+test/
+docs/
+assets/
+*.log
+.DS_Store
+.env
+.npmrc

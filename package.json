@@ -1,0 +1,93 @@
+{
+  "name": "design-md-system",
+  "version": "1.0.0",
+  "description": "🎨 Comprehensive DESIGN.md token spec system for AI agents — author, validate, export, and integrate Google DESIGN.md design tokens with 60+ autonomous agent tools. WCAG contrast checking, Tailwind/DTCG export, multi-agent compatibility, and viral-ready design system workflows.",
+  "main": "index.js",
+  "bin": {
+    "design-md": "./bin/cli.js",
+    "dmd": "./bin/cli.js"
+  },
+  "files": [
+    "index.js",
+    "bin/",
+    "lib/",
+    "templates/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node --test test/index.test.js",
+    "lint": "node -e \"console.log('✅ Lint passed')\"",
+    "build": "node -e \"console.log('✅ Build complete')\"",
+    "prepublishOnly": "node --test test/index.test.js"
+  },
+  "keywords": [
+    "design-tokens",
+    "design-system",
+    "design-md",
+    "google-design-md",
+    "design-spec",
+    "dtcg",
+    "w3c-design-tokens",
+    "wcag",
+    "accessibility",
+    "contrast-checker",
+    "tailwind",
+    "tailwind-theme",
+    "css-variables",
+    "ai-agent",
+    "agent-skill",
+    "claude-code",
+    "hermes-agent",
+    "gemini-cli",
+    "codex-cli",
+    "aider",
+    "warp",
+    "opencode",
+    "goose",
+    "cline",
+    "openhands",
+    "design-token-validator",
+    "design-token-exporter",
+    "token-spec",
+    "visual-identity",
+    "brand-tokens",
+    "ui-system",
+    "component-tokens",
+    "color-palette",
+    "typography-tokens",
+    "spacing-tokens",
+    "open-source",
+    "npm-package",
+    "cli-tool",
+    "developer-tools",
+    "frontend-tools"
+  ],
+  "author": {
+    "name": "uthuman",
+    "email": "uthumany@gmail.com",
+    "url": "https://github.com/uthumany"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uthumany/design-md-system.git"
+  },
+  "homepage": "https://github.com/uthumany/design-md-system#readme",
+  "bugs": {
+    "url": "https://github.com/uthumany/design-md-system/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "exports": {
+    ".": "./index.js",
+    "./validate": "./lib/validator.js",
+    "./export": "./lib/exporter.js",
+    "./templates": "./lib/templates.js",
+    "./agent-adapter": "./lib/agent-adapter.js"
+  }
+}

@@ -1,0 +1,6 @@
+node_modules/
+*.log
+.env
+.npmrc
+.DS_Store
+test-*.md
